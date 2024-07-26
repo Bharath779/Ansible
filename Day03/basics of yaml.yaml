@@ -1,1 +1,60 @@
+#basics of Yaml 
+# --- to start yaml 
+# example for sting Name: Marrie Currie
+# example for integer Age: 24
+# example for boolean Work: ture 
+ # exceution of these
+--- 
+Name: Marrie Currie
+Age: 24
+Work: ture
 
+#list of tasks
+#task name  Hobbies:
+#             -Working
+#             -Studying
+#             -playing
+
+Hobbies:
+  -Working
+  -Studying
+  -playing
+
+  # Providing set of Information
+  #Personal info
+  #Name: Marrie Currie
+  #Age: 24
+  #Work: ture
+
+Personal info:
+  Name: Marrie Currie
+  Age: 24
+  Work: ture
+
+ # Providing lists of info
+ # family:
+ # parents:
+ #  - name: Jane
+ #    age: 50
+ #  - name: John
+ #    age: 52
+ # children:
+ #   - name: Jimmy
+ #    age: 22
+ #   - name: Jenny
+ #    age: 20
+
+family:
+parents:
+  father: "Jhon"
+  age: 32
+  mother: jane
+  age: 25
+children:
+  son: "David"
+  Age: 14
+  daughter: "jose"
+  Age: 12  
+
+  
+              
