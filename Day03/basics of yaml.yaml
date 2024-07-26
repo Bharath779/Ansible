@@ -44,17 +44,18 @@ Personal info:
  #   - name: Jenny
  #    age: 20
 
+
 family:
-parents:
-  father: "Jhon"
-  age: 32
-  mother: jane
-  age: 25
-children:
-  son: "David"
-  Age: 14
-  daughter: "jose"
-  Age: 12  
+  parents:
+    - father: "Jhon"
+      age: 32
+    - mother: jane
+      age: 25
+  children:
+    - son: "David"
+      age: 14
+    - daughter: "jose"
+      age: 12  
 
   
               
