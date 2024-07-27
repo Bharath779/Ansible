@@ -10,4 +10,8 @@
            ----tasks
                ---module
 
- # playbooks are written in yaml language              
+ # playbooks are written in yaml language            
+
+ # To exceute playbook
+  # ---- command 
+  #    ansible playbook -i <inventory file> <filenameofplaybook> 
