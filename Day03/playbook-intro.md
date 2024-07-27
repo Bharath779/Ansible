@@ -14,4 +14,4 @@
 
  # To exceute playbook
   # ---- command 
-  #    ansible playbook -i <inventory file> <filenameofplaybook> 
+     ansible playbook -i <inventory file> <filenameofplaybook> 
