@@ -5,7 +5,12 @@ Passwordlees Authentication  can be achieved by two ways
                                                2. Password
 and also Ansible should be installed in Host Server(Control Node)
 
-
+# to make passwordless auth we need to use ssh-keygen
+# commands 
+1. ssh-keygen in control-node server
+2. copy public key of control-node
+3. ssh-keygen in manage-node server
+4. paste public key in authorized folder of manage node
 
 
 ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" ubuntu@<INSTANCE-PUBLIC-IP>
